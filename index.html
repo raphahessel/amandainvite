@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Amanda Uemura</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="preload" href="./images/bg01.png" as="image" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+    <script>
+    window.addEventListener('DOMContentLoaded', () => {
+      VANTA.BIRDS({
+        el: "#vanta",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        color1: 0xff00d1,
+        birdSize: 0.90,
+        wingSpan: 26.00,
+        speedLimit: 8.00,
+        separation: 42.00,
+        alignment: 52.00,
+        cohesion: 26.00,
+        quantity: 4.00,
+        backgroundAlpha: 0.00
+      })
+
+      setTimeout(() => {
+        const main = document.querySelector('main')
+        main.style.opacity = 1
+        main.style.filter = 'blur(0px)'
+      }, 1000)
+    })
+    </script>
+  </head>
+  <body>
+    <div id="vanta"></div>
+    <main class="animated">
+      <header>
+        <img src="./images/hanabb.jpg" />
+        <h1>@amandauemurx
+        </h1>
+      </header>
+      <ul>
+        <li>
+          <a href="">
+            <img src="./images/homepage.svg" alt="Homepage" width="20" />
+            Instagram
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="" alt="YouTube" width="20" />
+            Localização
+          </a>
+        </li>
+        <li>
+          <a href="https://m.uber.com/ul/?action=setPickup&client_id=O5-_h4nHnB_Nm0LfWaBnLlZUYjJIOu4E&pickup=my_location&dropoff[formatted_address]=Rua%20Angustura%2C%2080%20-%20Vila%20da%20Sa%C3%BAde%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%20Brasil&dropoff[latitude]=-23.616200&dropoff[longitude]=-46.626244">
+            <img src="./images/twitter.png" alt="Twitter" width="20" />
+            Venha com uber
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="" alt="GitHub" width="20" />
+            PRAY FOR ME
+          </a>
+        </li>
+      </ul>
+    </main>
+  </body>
+</html>
