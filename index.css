@@ -6,7 +6,7 @@ body, html {
 }
 
 body {
-  background: url(./images/cinnatrap.jpg) no-repeat center center fixed;
+  background: url(./images/bg01.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -17,16 +17,6 @@ body {
   top: 0;
   width: 100%;
   height: 100%;
-}
-
-video {
-  z-index: 0;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 main {
@@ -40,7 +30,7 @@ main.animated {
 }
 
 header {
-  margin-top: 2em;
+  margin-top: 3em;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -56,20 +46,13 @@ header > img {
 }
 
 header > h1 {
-  padding: 0.4em 0.6em;
-  border: none;
-  color:none;
-}
-
-header > h2 {
   display: inline-block;
-  font-size: 1em;
+  font-size: 0.8em;
   font-weight: bold;
   border-radius: 1em;
-  background-color: #000a;
-  color: #fff;
-  padding: 0.4em 0.6em;
-  border: 1px solid #fffa;
+  background-color: transparent;
+  padding: 0.3em 0.6em;
+  border: none;
   backdrop-filter: blur(10px) saturate(160%) contrast(180%);
   -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
 }
@@ -78,23 +61,23 @@ ul {
   box-sizing: border-box;
   list-style: none;
   margin: 0 auto;
-  padding: 1em;
+  padding: 2em;
   max-width: 480px;
 }
 
 ul > li {
-  background-color: #86d3f1;
+  background-color: #FF83A8;
   backdrop-filter: blur(10px) saturate(160%) contrast(180%);
   -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
   border-radius: 10em;
-  margin: 0.8em 0;
+  margin: 1.4em 0;
   box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
 }
+
 ul > li:hover{
   background-color: #fadae7;
   transition: 0.5s;
 }
-
 
 ul > li > a {
   display: flex;
@@ -105,9 +88,7 @@ ul > li > a {
   padding: 1em;
 }
 
-ul > li > a:hover{
-  color: black;
-}
+
 
 a {
   color: black;
