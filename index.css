@@ -50,28 +50,12 @@ header > h1 {
   font-family: 'Yellowtail', cursive;
   font-size: 5em;
   font-weight: bold;
-  border-radius: 1em;
   color: #FF83A8;
-  background-color: none;
   margin: 0;
-  border: none;
   backdrop-filter: blur(10px) saturate(160%) contrast(180%);
   -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
 }
-header > h2 {
-  display: inline-block;
-  font-family: 'Yellowtail', cursive;
-  font-size: 2em;
-  font-weight: bold;
-  border-radius: 1em;
-  padding-left: 0.5em;
-  color: #FF83A8;
-  background-color: transparent;
-  padding: 0.2em 0.3em;
-  border: none;
-  backdrop-filter: blur(10px) saturate(160%) contrast(180%);
-  -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
-}
+
 
 ul {
   box-sizing: border-box;
@@ -135,3 +119,4 @@ footer > h3 {
   backdrop-filter: blur(10px) saturate(160%) contrast(180%);
   -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
 }
+
